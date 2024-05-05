@@ -1,0 +1,30 @@
+What is a Dp?
+Dp is a optimised recursion.  (by reducing the time complexity)
+
+How to identify the dp ?
+    -optimal problem ( like in greedy we studied , we have to find the - least , min , max, greatest, most, smallest , etc)
+    -some choices are given (  there are multiple branches/ choices  in recursion trees - like fibo has two choices/branches i.e. fibo(n) = fibo(n-1) + fibo (n-2) )
+         like sum of n natural no. using recursion is not a multi branches recursion as there is only single choice so here dp is not used
+         we can use greedy for optimal then why dp? bcoz here we also see the multi branches case
+
+DEFINITION OF DP:
+    Dynamic programming is a technique in computer programming that helps to efficiently solve a class of problems that
+    have "overlapping subproblems" and "optimal substructure" property
+
+WAYS OF DP :
+    Memoization (Top Down)
+    Tabulation (Bottom Up)
+
+MEMOIZATION :
+       i> recursion
+       ii> subproblem -> store in storage -> so that we can reuse it (like we done in  fibonacci i.e. we store in f[] array)
+
+TABULATION :  (efficient) (as there is a case of stack overflow in memoization due to recursive stack)
+    |    iteration / loops
+    |            ^
+    |            |
+  table/ set / storage
+
+  i> initialisation
+  ii> meaning
+  iii> filling (small to large)
